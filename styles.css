@@ -1,0 +1,45 @@
+.main-container{
+    display: flex;
+    background-color: #012E67;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.conteiner{
+    width: 80%;
+    height: 350px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    border: 1.5px solid black;
+}
+.content{
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 10px black; 
+    margin:3px;
+    margin-bottom: 50px;
+    border: 2px solid black;
+}
+.content1{
+background-color: #7b0000;
+}
+.content2{
+background-color: goldenrod;
+}
+.content3{
+background-color: green;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function showDiv(){
+            console.log("ocultar D:");
+            const div2 = document.getElementById("div2");
+            //const div2 = document.getElementById("button2");
+
+            if(div2.style.display=== "none"){
+                div2.style.display="block";
+                }else{
+                    div2.style.display="none"
+                }
+                console.log("fin");
+        }
+
+
+        function changeColor(){
+            console.log ("Change color");
+            const myconst= 3;
+            let var1;
+            var var2;
+
+            const div1 = document.getElementById("div1");
+            debugger;
+            div1.style.backgroundColor="blue";
+            //esteEseldiv2.style.display="none";
+            debugger;
+
+            const div2 = document.getElementById("div2");
+            debugger;
+            div2.style.backgroundColor="pink";
+            //esteEseldiv3.style.display="none";
+            
+            const div3 = document.getElementById("div3");
+            debugger;
+            div3.style.backgroundColor="orange";
+
+        }
+    </script>
+
+    <style>
+        #div1{
+            background-color: brown;
+            height: 100px;
+            width: 100px;
+            float: left;
+            position: relative;
+        }
+
+        #div2{
+            background-color: blue;
+            height: 100px;
+            width: 100px;
+            float: left;
+            position: relative;
+        }
+        #div3{
+            background-color: yellow;
+            height: 100px;
+            width: 100px;
+            float: left;
+            position: relative;
+        }
+        #div4{
+            background-color: green;
+            height: 100px;
+            width: 100px;
+            float: left;
+            position: relative;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <div id="div4"></div>
+    <button onclick="changeColor()" id="button"> click me</button>
+    <button onclick="showDiv()" id="button2"> click me</button>
+
+</body>
+</html>
